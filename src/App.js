@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import RestaurantsContainer from './containers/RestaurantsContainer';
+import React, { Component } from "react";
+import RestaurantsContainer from "./containers/RestaurantsContainer";
 
 class App extends Component {
   render() {
@@ -9,6 +9,6 @@ class App extends Component {
       </div>
     );
   }
-};
+}
 
-export default App
+export default App;
