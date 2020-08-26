@@ -7,8 +7,8 @@ class ReviewsContainer extends Component {
   render() {
     return (
       <div>
-        <ReviewInput />
-        <Reviews />
+        <ReviewInput restaurantId={this.props.restaurant.id} restaurant={this.props.restaurant}/>
+        <Reviews restaurant={this.props.restaurant}/>
       </div>
     )
   }
